@@ -1,0 +1,54 @@
+{
+  "name": "PayTrust",
+  "website": "PayTrustGH.com",
+  "tagline": "Secure Escrow Payments for Ghana",
+  "primary_color": "#1F6FEB",
+  "secondary_color": "#0D1117",
+  "accent_color": "#FFD700",
+  "text_color": "#FFFFFF",
+  "country": "Ghana",
+  "currency": "GHS",
+  "cta_endcard_image": "config/brand_assets/cta_endcard.png",
+  "target_audience": "Ghanaian merchants and online sellers aged 20-45",
+  "platforms": ["WhatsApp", "Instagram", "Jiji"],
+  "pain_points": [
+    "Fake MoMo screenshots",
+    "Delayed payments",
+    "Buyer fraud",
+    "No payment verification",
+    "Trust issues in online selling"
+  ],
+  "value_props": [
+    "Escrow protection for every transaction",
+    "Real-time payment verification",
+    "No fake screenshots possible",
+    "Funds held securely until delivery confirmed",
+    "Free for merchants to receive payments"
+  ],
+  "voice": {
+    "tts_voice": "en-US-SteffanNeural",
+    "fallback_voice": "en-US-GuyNeural",
+    "tone": "confident, empathetic, solution-oriented",
+    "language": "Neutral English",
+    "delivery_voices": {
+      "warm_confident": "en-US-AriaNeural"
+    }
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "scene_count": 5,
+    "padding_frames": 3,
+    "transition_frames": 10,
+    "codec": "h264",
+    "crf": 23
+  },
+  "workflow": {
+    "refresh_text_overlays_after_narration_resync": false,
+    "visual_style_profile": "tiktok",
+    "shot_map_enabled": true,
+    "continuity_clause_enabled": false,
+    "dedupe_retry_enabled": true
+  }
+}

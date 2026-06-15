@@ -1,0 +1,13 @@
+.env
+cookies.json
+data/
+output/
+logs/
+__pycache__/
+*.pyc
+node_modules/
+templates/MarketingVideo/public/scenes/*.png
+templates/MarketingVideo/public/audio/*.mp3
+
+templates/MarketingVideo/out/
+config/bgm/*.mp3

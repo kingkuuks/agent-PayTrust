@@ -1,0 +1,64 @@
+{
+  "branding": {
+    "icon": {
+      "file": "icon.png",
+      "description": "PayTrust app icon, teal background with white PT monogram",
+      "use": "watermark, brand presence on any scene"
+    },
+    "logo": {
+      "file": "logo.png",
+      "description": "PayTrust logo with icon and wordmark on teal background",
+      "use": "splash screens, CTA scenes, brand-forward moments"
+    }
+  },
+  "scenes": [
+    {
+      "file": "solution_dashboard.png",
+      "tags": ["solution", "dashboard", "balance", "escrow", "money", "safe", "protected"],
+      "shows": "Hand holding phone with PayTrust dashboard showing GHS 50,000 balance, ongoing transactions",
+      "best_for": "solution scene — proving the app works, money is visible and secure"
+    },
+    {
+      "file": "solution_escrow.png",
+      "tags": ["solution", "escrow", "peer-to-peer", "transactions", "wallet"],
+      "shows": "Hand holding phone with wallet view, peer-to-peer transaction and escrow tagline",
+      "best_for": "solution scene — explaining what PayTrust does"
+    },
+    {
+      "file": "solution_onboard.png",
+      "tags": ["cta", "onboard", "welcome", "get-started", "download", "new"],
+      "shows": "Clean phone mockup with PayTrust welcome screen, worry-free transactions tagline",
+      "best_for": "CTA scene — inviting new users, clean and inviting"
+    },
+    {
+      "file": "solution_transaction_flow.png",
+      "tags": ["solution", "transaction", "buyer", "seller", "payment", "received", "sent"],
+      "shows": "Transaction creation flow with buyer/seller selection, payment sent and received confirmations",
+      "best_for": "solution scene — showing how a transaction works step by step"
+    },
+    {
+      "file": "solution_tracking.png",
+      "tags": ["solution", "tracking", "progress", "ongoing", "transparency", "real-time"],
+      "shows": "Transaction list with progress bars, ongoing deals with amounts in GHS",
+      "best_for": "solution scene — trust through transparency, tracking every cedi"
+    },
+    {
+      "file": "solution_withdraw.png",
+      "tags": ["solution", "withdraw", "momo", "mobile-money", "mtn", "cash-out", "money"],
+      "shows": "Withdrawal screen sending GHS 5,000 to MTN Mobile Money",
+      "best_for": "solution scene — showing money access, real MoMo integration"
+    },
+    {
+      "file": "solution_history.png",
+      "tags": ["solution", "history", "records", "proof", "transactions"],
+      "shows": "Transaction history showing completed deals with dates and amounts",
+      "best_for": "solution scene — record keeping, proof of transactions"
+    },
+    {
+      "file": "solution_alerts.png",
+      "tags": ["solution", "alerts", "notifications", "updates", "confirmed", "linked"],
+      "shows": "Notification center showing transaction confirmations, wallet linked, new transactions",
+      "best_for": "solution scene — staying informed, nothing happens without your knowledge"
+    }
+  ]
+}

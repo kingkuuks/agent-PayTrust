@@ -1,0 +1,10 @@
+twikit
+openai
+google-genai
+Pillow
+edge-tts
+mutagen
+python-dotenv
+schedule
+json-repair
+num2words

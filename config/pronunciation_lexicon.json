@@ -1,0 +1,17 @@
+{
+  "_about": "Map written words to speak-as spellings for Edge TTS en-US. Keys starting with _ are ignored. Whole-word, case-insensitive. Add entries ONLY when synthesis repeatedly garbles standard spelling — most Ghana placenames stay as spelled (one word). If TTS spells letters (e.g. S-W-A), avoid hyphens before s+consonant+vowel; use a space between chunks instead (e.g. Kaah swah).",
+  "Ashaiman": "Asha e man",
+  "Kaneshie": "Kah-ney-shee",
+  "BECE": "BEE-EE-CEE-EE",
+  "Tema": "Teh-Mah",
+  "Kumasi": "Koo mah see",
+  "Osu": "Oh su",
+  "Kantamanto": "kan-tah-mahn-to",
+  "Tamale": "Tah-Mah-Ley",
+  "Suame": "Swah-me",
+  "Kasoa": "Kaah swah",
+  "Oyibi": "Oh-yee-bee",
+  "Claude": "Clawed",
+  "Adum": "Aydoom",
+  "Pokuase": "Po-koo-wah-se"
+}

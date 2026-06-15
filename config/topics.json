@@ -1,0 +1,770 @@
+{
+  "description": "Batch 1 (ids 1-50) and Batch 2 (ids 51-100): rotating topics for PayTrustGH video generation. Batch 2 adds 50 topics with zero overlap with Batch 1 in scam mechanic, emotional core, or setting — services, real estate, B2B, relationship dynamics, offline deals, and new emotional cores. MoMo-as-primary-mechanic deliberately avoided in Batch 2.",
+  "topics": [
+    {
+      "id": 1,
+      "angle": "Seller lists a car or iPhone on Jiji at a great price, says it's in Tamale or Takoradi. Buyer sends MoMo for transport money to bring it to Accra. Seller blocks them. Item never existed.",
+      "emotional_core": "betrayal after trust",
+      "specificity": "Jiji/Tonaton, Tamale or Takoradi to Accra, GHS 350–2000 transport advance",
+      "discourse_question": "Was the price too good to be true, or should a Jiji listing be trustworthy? When does caution become paranoia?"
+    },
+    {
+      "id": 2,
+      "angle": "Seller ships sneakers early because buyer sent a voice note crying about surprising his girlfriend for their anniversary. Seller felt touched. Two days later, girlfriend posts the sneakers on Instagram. Seller sees the post. Payment never cleared.",
+      "emotional_core": "kindness weaponized, proof of the crime rubbed in your face",
+      "specificity": "Kumasi to Accra delivery, sneakers, GHS 800",
+      "discourse_question": "Was she naive for shipping early, or is that victim-blaming?"
+    },
+    {
+      "id": 3,
+      "angle": "Buyer reverses MoMo transaction after seller confirms and releases goods",
+      "emotional_core": "the system working against you",
+      "specificity": "MTN MoMo reversal within 24 hours, laptop accessory, GHS 450",
+      "discourse_question": "Who's at fault — the buyer who reversed, or MTN for allowing it?"
+    },
+    {
+      "id": 4,
+      "angle": "Buyer sends GHS 2,500 via MoMo instead of agreed GHS 1,500. Calls immediately: 'I sent wrong amount, please refund GHS 1,000.' Seller refunds. Original payment reverses or bounces. Seller loses GHS 1,000 and the goods.",
+      "emotional_core": "the proof was right there — you just didn't look",
+      "specificity": "Instagram clothing business, 3 dresses, GHS 600, MoMo over-payment reversal",
+      "discourse_question": "Seller refunded too fast. Whose system failed — MoMo, the seller, or both?"
+    },
+    {
+      "id": 5,
+      "angle": "Buyer creates urgency saying they need the item immediately, pressures seller to ship before confirming payment",
+      "emotional_core": "social pressure leading to financial loss",
+      "specificity": "Wedding gift, rush delivery, Tamale, GHS 1200",
+      "discourse_question": "FOMO made her skip verification. Should she have known better?"
+    },
+    {
+      "id": 6,
+      "angle": "Repeat buyer who paid correctly twice then scams on the third larger transaction",
+      "emotional_core": "trust built then exploited",
+      "specificity": "Regular customer, electronics, GHS 2500",
+      "discourse_question": "Two perfect orders, then the third. Should she have capped credit? When does trust become negligence?"
+    },
+    {
+      "id": 7,
+      "angle": "Seller chases partial payment for 3 weeks. Excuses escalate from network issues, to sick aunt, to MTN investigating the account. Then the number stops existing. Seller posts the excuse thread on Twitter. Three other sellers reply: same person, same script.",
+      "emotional_core": "the excuses are funnier than the scam itself",
+      "specificity": "Vodafone Cash partial payment, perfume seller, GHS 180 of GHS 400",
+      "discourse_question": "Same script, multiple sellers. Should there be a shared blacklist? Or is that vigilantism?"
+    },
+    {
+      "id": 8,
+      "angle": "Seller receives payment from an unknown number and doesn't question it. Three days later a furious woman calls — her husband used her MoMo to buy a phone without permission. She wants her money back. Seller already spent it. Husband is unreachable.",
+      "emotional_core": "guilty and innocent at the same time",
+      "specificity": "Third-party MoMo payment, Jiji seller, phone, GHS 1500",
+      "discourse_question": "Who's at fault? The wife? The husband? The seller who already spent it?"
+    },
+    {
+      "id": 9,
+      "angle": "A 'trusted agent' on WhatsApp inserts between buyer and seller — collects MoMo from buyer, collects goods from seller. Disappears with both. Buyer blames seller. Seller blames buyer. Agent gone. Common in Kumasi electronics and Jiji deals.",
+      "emotional_core": "organized fraud targeting small sellers",
+      "specificity": "5 sellers in Kumasi, same agent profile, total GHS 4000 lost",
+      "discourse_question": "Buyer blames seller. Seller blames buyer. Who trusted the wrong person?"
+    },
+    {
+      "id": 10,
+      "angle": "Seller's entire weekly inventory wiped out by three fake payment scams in one week",
+      "emotional_core": "business survival at stake",
+      "specificity": "Market trader, Makola Market, lost GHS 3000 in stock",
+      "discourse_question": "Three scams in one week. Seller problem or market design problem?"
+    },
+    {
+      "id": 11,
+      "angle": "Buyer haggles for 30 minutes, agrees on price, then sends payment to a random number and screenshots the failed notification. Tells seller their line must be blocked. Seller panics, calls MTN, spends 45 minutes on hold. By the time they confirm the line is fine, the buyer has blocked them and is already messaging the next Jiji seller.",
+      "emotional_core": "the scam made you doubt yourself before you doubted them",
+      "specificity": "Jiji shoe seller, GHS 280",
+      "discourse_question": "He spent 45 minutes on hold with MTN. Who should fix this — sellers, MTN, or the platform?"
+    },
+    {
+      "id": 12,
+      "angle": "New seller on Instagram makes first big sale, gets scammed on their very first transaction over GHS 500",
+      "emotional_core": "dream crushed at the start",
+      "specificity": "First-time seller, handmade jewelry, GHS 650",
+      "discourse_question": "Should new sellers be allowed to list without verification? Or is that gatekeeping?"
+    },
+    {
+      "id": 13,
+      "angle": "Buyer claims cosmetics arrived damaged and demands a refund. Seller asks for a photo. Buyer sends one — but the background clearly shows the products fully intact on a shelf, being used. Seller sends it back. Buyer doubles down and threatens to report them to Consumer Protection.",
+      "emotional_core": "caught red-handed, still has audacity",
+      "specificity": "Cosmetics seller, delivery to Takoradi, GHS 400",
+      "discourse_question": "She sent the photo proving he lied. He still threatened Consumer Protection. Who has real power here?"
+    },
+    {
+      "id": 14,
+      "angle": "Seller waits at meeting point for hours, buyer keeps saying they are coming, never shows up after claiming payment sent",
+      "emotional_core": "wasted time on top of wasted money",
+      "specificity": "In-person deal at Accra Mall, GHS 900 item",
+      "discourse_question": "He waited 4 hours. She kept saying she was coming. When do you give up? Rude to leave, or self-harm to stay?"
+    },
+    {
+      "id": 15,
+      "angle": "Scammer becomes a regular on a seller's WhatsApp or Instagram — small orders, pays on time for weeks. Then one big order, collects on credit or fake MoMo, and blocks. The whole history was setup for one big theft.",
+      "emotional_core": "your own gratitude post becomes evidence of your humiliation",
+      "specificity": "Laptop deal, agreed GHS 3000, built trust over 6 weeks then GHS 3500 gone",
+      "discourse_question": "Six weeks of perfect orders. Should she have capped credit? When does trust become negligence?"
+    },
+    {
+      "id": 16,
+      "angle": "Mother selling children's clothes on WhatsApp loses her restock money to a scam buyer",
+      "emotional_core": "family livelihood threatened",
+      "specificity": "Single mother, children's clothing, GHS 500 restock budget gone",
+      "discourse_question": "A mother loses her restock money. Who failed her — just the scammer, or everyone who sells without protection?"
+    },
+    {
+      "id": 17,
+      "angle": "University student selling textbooks gets scammed by fellow student who disappears after collecting books",
+      "emotional_core": "peer betrayal in a trusted community",
+      "specificity": "KNUST campus, 4 textbooks, GHS 200",
+      "discourse_question": "Campus sale, fellow student. Who polices student-to-student — the university, students, or nobody?"
+    },
+    {
+      "id": 18,
+      "angle": "Seller delivers a gaming console in person with no receipt and no witness. Buyer calls back claiming it was never delivered. Seller goes back to find witnesses on a busy Accra roadside. Nobody remembers. Police ask for evidence. All the seller has is a WhatsApp voice note of the buyer saying 'I'm almost there.'",
+      "emotional_core": "a voice note was the only record of your entire transaction",
+      "specificity": "In-person deal, no receipt, GHS 1100 gaming console",
+      "discourse_question": "He says never delivered. She says he took it. Voice note is the only proof. Who do you believe?"
+    },
+    {
+      "id": 19,
+      "angle": "Buyer pays for a Samsung TV using a company bank transfer. Seller sees a pending credit notification and releases it. Three days later the bank reverses it — the account was flagged for fraud. Seller calls the bank. Bank says speak to your lawyer. Seller doesn't have a lawyer.",
+      "emotional_core": "the bank's own system was the weapon and it doesn't care about you",
+      "specificity": "Bank transfer reversal, Samsung TV, GHS 5000",
+      "discourse_question": "Bank says get a lawyer. She doesn't have one. Whose system failed?"
+    },
+    {
+      "id": 20,
+      "angle": "Group buy organizer collects money from 10 people, places order, supplier scams them all",
+      "emotional_core": "collective loss, one person blamed",
+      "specificity": "Group import from China, 10 contributors, GHS 8000 total",
+      "discourse_question": "Organizer collected. Supplier scammed. Is the organizer liable? Or also a victim?"
+    },
+    {
+      "id": 21,
+      "angle": "Seller screenshots showing their actual MoMo balance unchanged after buyer claims they sent money",
+      "emotional_core": "cold hard proof of the lie",
+      "specificity": "Balance unchanged, buyer insists network delay, GHS 750",
+      "discourse_question": "Balance unchanged, buyer insists delay. Cold proof. But who should have verified first?"
+    },
+    {
+      "id": 22,
+      "angle": "Buyer sends real GHS 1 to prove the number works then sends fake screenshot for the full GHS 2000 amount",
+      "emotional_core": "the one-cedi trust trick",
+      "specificity": "Test payment scam, iPhone seller, GHS 2000",
+      "discourse_question": "One cedi test, then fake for full amount. When does trust become a weapon?"
+    },
+    {
+      "id": 23,
+      "angle": "UK-based buyer orders kente cloth for his mother's 70th birthday. Speaks perfect Twi, asks about the weaver's village, says 'my mother will cry when she sees this.' Seller ships out of pure pride. Western Union reference number is fake. The mother in Accra never existed.",
+      "emotional_core": "your cultural pride was the entry point for the con",
+      "specificity": "Diaspora buyer, kente cloth order, GHS 1500",
+      "discourse_question": "He spoke Twi, asked about the weaver. Was her cultural trust exploited, or did she skip basic checks?"
+    },
+    {
+      "id": 24,
+      "angle": "Seller runs a small food business and loses a full day's profit to one fake payment",
+      "emotional_core": "daily survival money stolen",
+      "specificity": "Waakye seller, bulk catering order, GHS 300 — entire day's margin",
+      "discourse_question": "Full day's profit gone. Whose survival is on the line — seller or system?"
+    },
+    {
+      "id": 25,
+      "angle": "At Kejetia (Kumasi), Makola (Accra), or a Cape Coast market pop-up, someone swaps the seller's MoMo QR code with theirs. Customers pay. Seller checks balance at day end — nothing. Common in busy markets.",
+      "emotional_core": "the scammer came prepared. you were just living your day.",
+      "specificity": "Kejetia or Makola or Cape Coast market, QR code swap, GHS 1800 lost",
+      "discourse_question": "QR code swapped at market. Whose job — the seller, market management, or MTN?"
+    },
+    {
+      "id": 26,
+      "angle": "Two friends go into business selling together online, one transaction scam causes them to blame each other and end the friendship",
+      "emotional_core": "fraud destroys relationships",
+      "specificity": "Joint Instagram shop, GHS 2000 loss, partnership dissolved",
+      "discourse_question": "Two friends, one deal, they blame each other. Who was negligent?"
+    },
+    {
+      "id": 27,
+      "angle": "Seller was making GHS 5000/month online and had quit their office job for it. Gets scammed three times in one month. On the fourth attempt confronts the buyer who laughs: 'you'll never prove it.' Seller deletes 3 years of content that night and goes back to their market stall. Their parents never find out why.",
+      "emotional_core": "the thing that killed your dream also killed your story",
+      "specificity": "Was making GHS 5000/month online, now back to GHS 2000 in market",
+      "discourse_question": "He quit his job for this. Three scams later, back at the stall. Who owes him an explanation?"
+    },
+    {
+      "id": 28,
+      "angle": "Scammer brings a fake company LPO to a food vendor, printer, or fabric seller in Tema or Koforidua. Collects goods on credit, says 'accounts will pay by Friday.' Company doesn't exist. Friday never comes.",
+      "emotional_core": "time and craft stolen, not just money",
+      "specificity": "Food vendor or fabric seller Tema/Koforidua, GHS 800, fake company LPO",
+      "discourse_question": "Fake LPO, Friday never came. Who verifies company documents?"
+    },
+    {
+      "id": 29,
+      "angle": "Seller in rural area has poor network, cannot verify payment in real-time, buyer exploits the delay",
+      "emotional_core": "infrastructure gap exploited by criminals",
+      "specificity": "Northern Region seller, network issues, GHS 600",
+      "discourse_question": "Northern Region, bad network. Who's responsible — MTN, the buyer, or the seller for selling there?"
+    },
+    {
+      "id": 30,
+      "angle": "Young entrepreneur saves for months to buy inventory, loses it all in one scam transaction on their first week",
+      "emotional_core": "months of saving destroyed in minutes",
+      "specificity": "Saved GHS 3000 over 4 months, lost entire first inventory batch",
+      "discourse_question": "Months of saving, gone in one week. Who protects first-time entrepreneurs?"
+    },
+    {
+      "id": 31,
+      "angle": "Seller confronts buyer in person after scam, buyer threatens violence, seller has no legal recourse",
+      "emotional_core": "no protection, no justice",
+      "specificity": "Physical confrontation in Osu, police say it is a civil matter",
+      "discourse_question": "Police say civil. He's afraid to push. Who's supposed to protect him?"
+    },
+    {
+      "id": 32,
+      "angle": "Buyer sends payment at 11pm when banks are closed, seller cannot verify until morning, goods already handed over",
+      "emotional_core": "timing exploited deliberately",
+      "specificity": "Late-night deal, bank transfer, GHS 1400 headphones",
+      "discourse_question": "11pm payment, banks closed. Who exploited whom? Or did the system exploit both?"
+    },
+    {
+      "id": 33,
+      "angle": "Scammer studies a top Jiji seller's profile, references their past reviews in the chat to seem legitimate. Seller skips verification because 'I know how this works by now.' Loses GHS 2200. Posts about it. The replies are brutal: 'You of all people?'",
+      "emotional_core": "your reputation made you the target and the internet won't let you forget it",
+      "specificity": "Top-rated Jiji seller, 50+ reviews, GHS 2200",
+      "discourse_question": "50+ reviews, still got got. Do reviews mean anything anymore?"
+    },
+    {
+      "id": 34,
+      "angle": "Buyer: 'Someone else is coming in an hour,' 'Price goes up tomorrow,' 'I'm at the gate now.' Seller rushes, skips MoMo verification, ships. Scammed. The rush was the weapon.",
+      "emotional_core": "the denial itself was the red flag you laughed at",
+      "specificity": "Electronics deal, GHS 900, FOMO pressure to skip verification",
+      "discourse_question": "FOMO pressure. She rushed. Was the rush the weapon, or was she?"
+    },
+    {
+      "id": 35,
+      "angle": "Buyer insists: 'Use my courier guy, he's fast.' Courier and buyer work together. Package marked delivered. Buyer says nothing arrived. Courier points to wrong address. Seller stuck. Common with Accra–Tamale or Kumasi–Takoradi shipments.",
+      "emotional_core": "the internet solved it in 6 hours. the system never will.",
+      "specificity": "Accra–Tamale or Kumasi–Takoradi courier, colluding driver, 30+ victims",
+      "discourse_question": "Package delivered. Buyer says nothing. Courier says wrong address. Who's lying?"
+    },
+    {
+      "id": 36,
+      "perspective": "buyer",
+      "angle": "Buyer pays full price for an iPhone on Instagram, seller blocks them immediately after receiving payment",
+      "emotional_core": "paid and ghosted",
+      "specificity": "Instagram deal, iPhone 13, GHS 4000, seller account deleted within minutes",
+      "discourse_question": "Paid, ghosted. Who's at fault — the seller, or the platform with no protection?"
+    },
+    {
+      "id": 37,
+      "perspective": "buyer",
+      "angle": "Buyer sends MoMo to a Jiji seller for a laptop, receives a box with rocks inside",
+      "emotional_core": "the package was a lie",
+      "specificity": "Jiji listing, courier delivery to Kumasi, opened box in front of courier, GHS 3500",
+      "discourse_question": "Rocks in the box. Seller? Courier? Buyer? Who switched it?"
+    },
+    {
+      "id": 38,
+      "perspective": "buyer",
+      "angle": "Buyer pays deposit for custom furniture, carpenter keeps delaying for months then stops responding",
+      "emotional_core": "money trapped with no recourse",
+      "specificity": "Custom wardrobe, GHS 2000 deposit, 3 months of excuses, Tema carpenter",
+      "discourse_question": "Three months of delays. Scammer or genuinely stuck? When does delay become theft?"
+    },
+    {
+      "id": 39,
+      "perspective": "buyer",
+      "angle": "Buyer orders branded sneakers online, receives cheap knockoffs that fall apart in a week",
+      "emotional_core": "what you paid for is not what you got",
+      "specificity": "Nike Air Max, GHS 600, received GHS 50 fakes, WhatsApp seller in Accra",
+      "discourse_question": "Paid for real, got fakes. Who's responsible — seller or platform?"
+    },
+    {
+      "id": 40,
+      "perspective": "buyer",
+      "angle": "Buyer pays for event tickets from a reseller, arrives at venue and tickets are fake or already used",
+      "emotional_core": "humiliation at the door",
+      "specificity": "Afronation tickets, GHS 500 each, 2 tickets, turned away at gate",
+      "discourse_question": "Turned away at the gate. Who validates tickets before the venue?"
+    },
+    {
+      "id": 41,
+      "perspective": "buyer",
+      "angle": "Buyer pre-orders 100 units of cosmetics to fulfill her own customers' orders. Receives 50. Now she has to personally call 50 waiting customers and explain. Half demand refunds. Her customer group chat turns on her. She spends a week apologizing for someone else's fraud.",
+      "emotional_core": "someone else's scam destroyed your reputation with people who trusted you",
+      "specificity": "Wholesale cosmetics, paid for 100 units, received 50, GHS 1500",
+      "discourse_question": "50 instead of 100. Is she liable to her customers? Should she have verified first?"
+    },
+    {
+      "id": 42,
+      "perspective": "buyer",
+      "angle": "Buyer sends money for school supplies for their children, seller sends used items instead of new",
+      "emotional_core": "children suffer from adult fraud",
+      "specificity": "Back-to-school supplies, GHS 400, received worn textbooks and broken pens",
+      "discourse_question": "Kids got worn items. Who protects parents?"
+    },
+    {
+      "id": 43,
+      "perspective": "buyer",
+      "angle": "Buyer receives goods in perfect condition. Claims damage, sends photos of a damaged item from home as evidence. Demands full refund. Seller has no escrow record of transaction terms. Common on Instagram and WhatsApp — Accra seller, Tamale buyer or vice versa.",
+      "emotional_core": "you knew the rule. someone you trusted made you break it.",
+      "specificity": "Samsung Galaxy S24, GHS 2000, Accra–Tamale, fake damage photos",
+      "discourse_question": "He claims damage, sends photos. She says it was fine. Who's lying?"
+    },
+    {
+      "id": 44,
+      "perspective": "buyer",
+      "angle": "Buyer joins a group buy organized on WhatsApp, organizer collects from everyone then disappears",
+      "emotional_core": "collective trust destroyed by one person",
+      "specificity": "WhatsApp group buy, 15 members, GHS 300 each, organizer gone with GHS 4500",
+      "discourse_question": "Organizer gone. Who vets group buy organizers?"
+    },
+    {
+      "id": 45,
+      "perspective": "buyer",
+      "angle": "Buyer pays a mechanic for car parts through MoMo, mechanic installs used parts and charges for new",
+      "emotional_core": "expertise used to deceive",
+      "specificity": "Brake pads and oil change, paid GHS 800 for new parts, got used, Spintex mechanic",
+      "discourse_question": "Paid for new, got used. Who certifies what mechanics install?"
+    },
+    {
+      "id": 46,
+      "perspective": "buyer",
+      "angle": "Buyer hires a freelance graphic designer, pays upfront, designer delivers stolen work from Google Images",
+      "emotional_core": "paying for creativity you never received",
+      "specificity": "Logo design, GHS 500 upfront, delivered Google Images with watermark still visible",
+      "discourse_question": "Stolen work delivered. Who protects buyers from fake creatives?"
+    },
+    {
+      "id": 47,
+      "perspective": "buyer",
+      "angle": "Buyer rents an apartment through an agent, pays deposit and rent, shows up and someone else already lives there",
+      "emotional_core": "scammed out of shelter money",
+      "specificity": "East Legon apartment, GHS 6000 deposit + 2 months rent, fake agent with fake keys",
+      "discourse_question": "Fake agent, wrong keys. Who verifies rental agents?"
+    },
+    {
+      "id": 48,
+      "perspective": "both",
+      "angle": "Courier delays delivery by 3 days. Buyer, who had already promised the item to their own customer, doubles down and demands a refund. Seller refuses — they have proof of shipment. Both post callouts. Both get dragged on Twitter. The courier's customer service line just rings out.",
+      "emotional_core": "a 3-day courier delay destroyed two people's reputations",
+      "specificity": "Agreed 2-day delivery, took 5 days, both parties honest, no mediator",
+      "discourse_question": "Both honest. Courier late. Who absorbs the loss — buyer, seller, or courier?"
+    },
+    {
+      "id": 49,
+      "perspective": "both",
+      "angle": "Seller and buyer chat for a week before the deal. Buyer sends voice notes in Twi, they laugh together, feel like family. Seller ships without escrow because it felt wrong to seem suspicious of someone so friendly. Item arrives, buyer claims it's not as described. Seller has no leverage. The buyer is still saved in their phone as 'Tamale Brother 😂'",
+      "emotional_core": "you can like someone and still get robbed by them",
+      "specificity": "Accra seller, Tamale buyer, GHS 1800 electronics",
+      "discourse_question": "He says not as described. She says it was exact. No proof. Who's lying? Can you be too nice in business?"
+    },
+    {
+      "id": 50,
+      "perspective": "both",
+      "angle": "Seller sends real item by bus or courier Accra–Kumasi or Takoradi–Wa. Package is opened en route, item swapped for rocks or junk, resealed. Buyer opens it and screams. Seller has proof of shipment. No proof of contents. Both post callouts.",
+      "emotional_core": "your patience was a countdown they were watching",
+      "specificity": "GHS 2000 item, Accra–Kumasi or Takoradi–Wa bus/courier, switched package",
+      "discourse_question": "Seller sent real. Buyer got rocks. Someone swapped en route. Who — insider, courier, or buyer?"
+    },
+    {
+      "id": 51,
+      "perspective": "buyer",
+      "angle": "A church member approaches a woman in the congregation after Sunday service. He's selling land in Oyibi. She's been saving to build. He's known her family for eight years. She gives him GHS 15,000 in two tranches over three weeks — no documentation, no site visit, because 'we go to the same altar.' The plot belongs to someone else entirely. The church quietly asks both parties to 'resolve it in peace.' She resolves nothing.",
+      "emotional_core": "faith used as due diligence",
+      "specificity": "Church community, Oyibi land, GHS 15,000, no indenture signed, family acquaintance of 8 years",
+      "discourse_question": "She trusted him because they share a church. Was that faith or negligence? And why did the church ask her to 'keep the peace'?"
+    },
+    {
+      "id": 52,
+      "perspective": "seller",
+      "angle": "A marketing lead DMs a freelance photographer on Instagram for a product launch in Accra. He pays GHS 3,500 via MoMo before the shoot because procurement is offline until Monday. She delivers watermarked proofs same night. Monday the brand page is gone and the MoMo sender name does not match any registrar record.",
+      "emotional_core": "your portfolio became their proof and your invoice became air",
+      "specificity": "Instagram corporate shoot, Accra, GHS 3,500 prepaid MoMo, fake brand page",
+      "discourse_question": "She rolled because the deposit pinged — some creatives say no pay no flash. Others say no face-to-face company stamp means no full send. When the receipt clears from a stranger wallet, who blinked first?"
+    },
+    {
+      "id": 53,
+      "perspective": "buyer",
+      "angle": "A man hires a building contractor — recommended by his brother-in-law — to complete his uncompleted building in Kasoa. Pays 60% upfront: GHS 28,000. Contractor buys materials, starts work, then goes silent after week three. When the man visits, the walls are up but unfinished, the gate is padlocked, and the contractor's number is answered by a woman who says he traveled to Takoradi for another job. He calls the brother-in-law. Long silence. 'I'm sorry, I thought he was reliable.'",
+      "emotional_core": "the referral became the alibi",
+      "specificity": "Kasoa building, GHS 28,000 upfront, contractor recommended by family, site abandoned week 3",
+      "discourse_question": "His brother-in-law vouched. Now who's responsible — the contractor who ran, or the person who referred him without checking?"
+    },
+    {
+      "id": 54,
+      "perspective": "buyer",
+      "angle": "A woman pays a travel agent GHS 6,500 for a Schengen visa package — consultation, document preparation, and submission. The agent files the application with wrong dates and a mismatched hotel booking. Visa denied. Agent says: 'Visa decisions are at the embassy's discretion. We can refile for another GHS 2,000.' She finds out from a friend at the embassy that the file was rejected for errors that were entirely the agent's fault.",
+      "emotional_core": "incompetence presented as bad luck",
+      "specificity": "Schengen visa package, GHS 6,500, rejected due to agent errors, refile demand of GHS 2,000",
+      "discourse_question": "Agent blames the embassy. Embassy blames the file. Who reimburses her — and how does she even prove it was negligence, not just a refusal?"
+    },
+    {
+      "id": 55,
+      "perspective": "seller",
+      "angle": "A tailor in Kumasi takes an order for 12 custom kaba and slit outfits for a family reunion — deposit paid, fabrics sourced, measurements taken. Two weeks before the event, the client calls to say the family 'decided to go with something simpler' and wants her fabrics back and full deposit refunded. The fabrics have already been cut. The tailor has turned down two other large orders for this slot.",
+      "emotional_core": "your preparation was treated as reversible",
+      "specificity": "Kumasi tailor, 12 kaba outfits, fabric already cut, GHS 1,800 deposit, two other orders declined",
+      "discourse_question": "Fabrics cut, slot blocked, orders declined. She changed her mind. Who absorbs this loss — tailor or client?"
+    },
+    {
+      "id": 56,
+      "perspective": "both",
+      "angle": "Tenant books a weekend apartment in Osu through a Facebook listing. Landlord demands full GHS 1,200 upfront via MoMo before sharing the lockbox code. Tenant sends it. Arrives Friday evening — the code does not work, the phone is off, and a neighbour says the same unit was rented to three other people that month.",
+      "emotional_core": "your sold-out weekend became someone else's empty hallway",
+      "specificity": "Facebook short-stay, Osu weekend, GHS 1,200 full prepay, fake lockbox code, triple-booked unit",
+      "discourse_question": "Every other Osu room was full so she cleared GHS 1,200 before she touched the handle. Some travellers say you pay first to lock dates. Others say you never release money until the code works or you are inside. When the listing is a stranger on Facebook, who is realistic — and who just paid for air?"
+    },
+    {
+      "id": 57,
+      "perspective": "buyer",
+      "angle": "A small school in Ashanti Region orders 80 plastic chairs and 20 desks from a supplier in Suame who advertises on Facebook. Pays full amount: GHS 7,200. Supplier delivers 60 chairs, no desks, and says 'balance coming next week.' Headmaster calls every day for six weeks. Supplier always picks up, always has a reason. Term starts. Children sit on the floor. Local TV crew filming a 'back to school' story gets the image.",
+      "emotional_core": "the children paid for the lie",
+      "specificity": "Ashanti school, 80 chairs + 20 desks, GHS 7,200, 60 chairs delivered, desks never arrive, term starts",
+      "discourse_question": "He always picked up the phone. Does that make it a scam or a business failure? And who's responsible for the children sitting on the floor?"
+    },
+    {
+      "id": 58,
+      "perspective": "seller",
+      "angle": "A caterer quotes GHS 18,000 for a 200-person awards dinner next Saturday in Labone. The PA insists she MoMo the full amount Wednesday to lock the kitchen line and imported prawns. She sends it. Thursday the callback goes to a bar and the hotel name on the invoice is spelled like the real chain but the email domain is one letter off.",
+      "emotional_core": "the paper trail ends at the gate",
+      "specificity": "Labone fake gala, GHS 18,000 full prepay MoMo, domain typo scam",
+      "discourse_question": "Galas need deposits — some kitchens say pay before they defrost. Others say you never empty MoMo into a first-time caterer chat until a signed hall walkthrough happens. Who is rushing the buffet — and who bought a PDF letterhead?"
+    },
+    {
+      "id": 59,
+      "perspective": "buyer",
+      "angle": "A relocation consultant on WhatsApp promises Canada intake paperwork. He asks for GHS 4,500 MoMo before he shares even a PDF checklist. The man pays the same evening. The next morning the profile photo is a stock shot and the line goes straight to voicemail with a full mailbox.",
+      "emotional_core": "you paid to be disqualified",
+      "specificity": "Canada package WhatsApp, GHS 4,500 MoMo same day, 48-hour ghost",
+      "discourse_question": "Some say you put cash down to show you are serious about leaving. Others say you never wire flight dreams to a brochure until a real contract file lands in your Gmail. Who is chasing the cold — and who sent warmth to a burner?"
+    },
+    {
+      "id": 60,
+      "perspective": "seller",
+      "angle": "A social media manager runs paid ads and manages content for a clothing brand for four months. Agreed monthly retainer: GHS 2,200. Client pays the first two months, then starts delaying with 'cash flow issues' every month. Manager continues working because she has already built the brand's audience from 800 to 11,000 followers. Client stops responding at month five. Manager has GHS 6,600 outstanding. She cannot use the results as a portfolio because the client threatens to report her for 'unauthorized use of brand assets.'",
+      "emotional_core": "you grew something beautiful for someone who will now use it against you",
+      "specificity": "Social media retainer, GHS 2,200/month, 4 months unpaid = GHS 6,600, audience 800→11,000, threatened over portfolio use",
+      "discourse_question": "She built their brand. They won't pay and won't let her show it. Who owns the work — the person who made it or the person who briefed it?"
+    },
+    {
+      "id": 61,
+      "perspective": "buyer",
+      "angle": "Two colleagues at a Tema manufacturing company pool GHS 12,000 to buy a used forklift from a dealer they found on a Facebook group. They inspect it at the yard — it starts, it lifts. They pay. Dealer arranges delivery for Monday. Monday comes, no forklift. They drive to the yard — the yard is an empty plot. The Facebook page was created 11 days before they found it. The profile photo is a man who runs a hardware store in Takoradi and has never sold a forklift in his life.",
+      "emotional_core": "the inspection gave you confidence in something that didn't exist yet",
+      "specificity": "Used forklift, GHS 12,000, Facebook group, empty yard on delivery day, profile photo stolen from real person",
+      "discourse_question": "They inspected it. It worked. Then it vanished. Was the inspection real? And who is responsible for a stolen identity on Facebook?"
+    },
+    {
+      "id": 62,
+      "perspective": "seller",
+      "angle": "A web developer builds a full e-commerce site for a fashion brand — product pages, cart, payment integration, admin dashboard. Agreed price: GHS 8,500. After launch, client uses the site for six weeks, then emails saying they want to 'pivot the design' and refuses to pay the final GHS 3,500 until the new design is done. Developer discovers the client has been making sales — GHS 40,000 worth — on the site he built and hasn't paid for.",
+      "emotional_core": "they used what you built to argue they don't owe you",
+      "specificity": "E-commerce site, GHS 8,500 total, GHS 3,500 withheld, client made GHS 40,000 on unpaid site, demands redesign as condition",
+      "discourse_question": "GHS 40,000 in sales on a site he hasn't fully paid for. Is that leverage or theft? And what does 'pivot the design' mean after launch?"
+    },
+    {
+      "id": 63,
+      "perspective": "buyer",
+      "angle": "Someone books a two-month Madina short-stay from an online listing. The host insists on both months upfront on Mobile Money to hold the room. Move-in week: wrong gate code, no answer, or the room is blocked or occupied. About GHS 8,000 left in chat and MoMo history but no lease or escrow both parties relied on.",
+      "emotional_core": "advance rent vanished before keys",
+      "specificity": "Madina stay, WhatsApp negotiation, dual MoMo for two-month rent, ghost host or phantom listing, disputed loss",
+      "discourse_question": "Who eats the eight thousand chat promised — blind prepay tourist or vanished host — when there is still no signed deal?"
+    },
+    {
+      "id": 64,
+      "perspective": "buyer",
+      "angle": "A woman hires a private tutor for her BECE child — GHS 400/month, sessions three times a week at her home. Three weeks in, tutor starts arriving late, then sends a replacement twice without asking. By week six, the tutor has stopped coming entirely but keeps promising 'next week' over WhatsApp. Results day: child fails four subjects. Tutor says: 'Madam, I did my best. Some students just need more time.'",
+      "emotional_core": "you paid someone to be absent from your child's future",
+      "specificity": "BECE tutor, GHS 400/month, 6 weeks of absence and replacements, child fails 4 subjects",
+      "discourse_question": "He showed up late, sent strangers, then disappeared. She kept paying because she didn't want to disrupt the child. Who failed the child — the tutor or the mother who didn't cut him off?"
+    },
+    {
+      "id": 65,
+      "perspective": "seller",
+      "angle": "A printing business in Accra Central produces 5,000 branded flyers, 200 branded mugs, and 50 branded polo shirts for a political campaign. Delivery made the day before a rally. Campaign pays 40% upfront — GHS 3,200. After the election, campaign office is closed, phone numbers inactive, and the candidate has relocated. The remaining GHS 4,800 is still outstanding. The printer sees the mugs for sale at Kantamanto three months later.",
+      "emotional_core": "your work outlived the relationship and you still aren't paid",
+      "specificity": "Political campaign printing, GHS 8,000 total, GHS 4,800 unpaid, office closed after election, mugs spotted at Kantamanto",
+      "discourse_question": "Campaign is over. Office closed. Mugs at Kantamanto. Who does he send the invoice to now?"
+    },
+    {
+      "id": 66,
+      "perspective": "buyer",
+      "angle": "A family pays GHS 22,000 MoMo to a Pokuase plot developer three days after a Facebook ad open house. Receipt promises an allocation letter within 30 days. Day 28 two buyers meet at the same peg — both have receipts with the same serial watermark from Canva. The sales office is a shuttered shipping container.",
+      "emotional_core": "you were not the only one",
+      "specificity": "Pokuase plot, GHS 22,000, duplicate receipts week four, fake pop-up office",
+      "discourse_question": "Land papers need cash to move — some say secure the plot early. Others say you never clear developer MoMo until soil with your name is filmed on someone else's phone too. When two receipts touch the same peg, who funded theatre?"
+    },
+    {
+      "id": 67,
+      "perspective": "seller",
+      "angle": "A startup pays a designer GHS 2,500 MoMo upfront after one Zoom for a brand pack. She ships PDF previews week two and asks for the other GHS 2,500 MoMo before native files. He clears the balance; she switches her handle to an interior-decor page and stops reading email.",
+      "emotional_core": "the threat was the negotiation and you didn't realize it",
+      "specificity": "Remote brand job, GHS 5,000 total, second tranche for source files, ghost after balance",
+      "discourse_question": "Some founders swear you pay the last cedi when layers arrive. Others swear you never clear the balance until packaged source lands in a folder you opened yourself. With a freelancer you only met online, who left the door open?"
+    },
+    {
+      "id": 68,
+      "perspective": "buyer",
+      "angle": "A Ho family answers a Facebook ad for same-week borehole drilling. Crew asks GHS 11,000 MoMo for diesel and casing before their truck rolls from Sunyani. They pay Sunday night. The live location pin sits on a highway median Monday and Tuesday the crew chat is archived.",
+      "emotional_core": "expertise sold without competence",
+      "specificity": "Ho borehole, GHS 11,000 upfront MoMo, fake live pin, ghost before rig arrives",
+      "discourse_question": "Drilling costs diesel up front — some homeowners say send it so the rig moves. Others say you never clear everything until tread marks show on your clay. When the map pin slides, who paid GPS theatre?"
+    },
+    {
+      "id": 69,
+      "perspective": "both",
+      "angle": "A restaurant owner in Osu places a recurring monthly order with a food distributor: tomatoes, onions, peppers — GHS 4,500/month. Pays upfront for the month as agreed. Distributor short-delivers on week three — half quantity, lower quality. Restaurant owner deducts from next month's payment. Distributor says the deduction breaks their agreement and stops deliveries. Restaurant runs out of stock during a fully booked Friday. Both are technically right about different things.",
+      "emotional_core": "a supply chain disagreement emptied your dining room",
+      "specificity": "Osu restaurant, GHS 4,500/month produce order, week-3 short delivery, deduction dispute, Friday no-stock incident",
+      "discourse_question": "She short-delivered. He deducted. She stopped. He lost a Friday. Both followed their own logic. Who broke the agreement first?"
+    },
+    {
+      "id": 70,
+      "perspective": "buyer",
+      "angle": "A woman pays a seamstress GHS 750 to sew her wedding dress — five months before the wedding. Seamstress asks for two fittings. First fitting: fine. Second fitting (three weeks before): wrong neckline, wrong length, no beading as discussed. Seamstress says 'we can fix it.' Two weeks before the wedding: still not right. One week before: seamstress stops picking up. Wedding day: woman wears an outfit borrowed from her cousin. The deposit is gone.",
+      "emotional_core": "you gave her your most important day and she gave it back broken",
+      "specificity": "Wedding dress, GHS 750, 5 months lead time, wrong neckline and length, no beading, abandoned 1 week before, borrowed outfit",
+      "discourse_question": "Five months, two fittings, one borrowed outfit. Was she naive to not go elsewhere after the second fitting, or is that victim-blaming?"
+    },
+    {
+      "id": 71,
+      "perspective": "seller",
+      "angle": "A market woman in Kaneshie supplies vegetables to a restaurant every Monday and Thursday for four months. Always cash-on-delivery, no problem. Restaurant manager asks to switch to weekly invoicing — 'easier for accounting.' She agrees. Week three of the new arrangement: restaurant says there's a 'dispute about quantities.' Week five: manager who set up the arrangement has been transferred. New manager has no record of the invoices. She is owed GHS 2,800 and has zero documentation.",
+      "emotional_core": "you upgraded your professionalism and it cost you everything",
+      "specificity": "Kaneshie market supplier, restaurant weekly invoicing, GHS 2,800 unpaid, manager transferred, no handover of records",
+      "discourse_question": "She switched to invoicing because they asked. Manager transferred, records gone. Who owns the debt when the person who created it has left?"
+    },
+    {
+      "id": 72,
+      "perspective": "buyer",
+      "angle": "A young man pays GHS 1,800 to enroll in a 'digital marketing certification course' advertised heavily on Instagram by a Ghanaian influencer. Course is pre-recorded videos. Week one: access link works. Week two: link broken. Customer service is a WhatsApp number that auto-replies. The influencer posts a new reel promoting another course. In the comments: 14 people from the original course asking for refunds. Influencer likes none of the comments.",
+      "emotional_core": "the influencer's silence is the only response you'll get",
+      "specificity": "Digital marketing course, GHS 1,800, broken link week 2, WhatsApp auto-reply support, influencer promoting new course while ignoring complaints",
+      "discourse_question": "14 people in the comments. He liked none of them. Is this a scam, a failed business, or just an influencer who moved on?"
+    },
+    {
+      "id": 73,
+      "perspective": "both",
+      "angle": "A dry cleaner in Labone damages an expensive ankara fabric during pressing — burns a small section. Customer brings in the dress worth GHS 2,200 for a GHS 80 service. Dry cleaner offers GHS 200 compensation. Customer demands full replacement value. Dry cleaner points to the receipt: 'Not liable for items valued over GHS 500.' Customer argues she didn't read the back of the receipt. The receipt disclaimer was printed in 7pt font in English on a receipt handed to her in Twi.",
+      "emotional_core": "the fine print was never meant to be found",
+      "specificity": "Labone dry cleaner, GHS 2,200 ankara burned, GHS 80 service, GHS 200 offered, GHS 500 liability cap in 7pt font on receipt",
+      "discourse_question": "She didn't read the fine print. He printed it in 7pt. Is that a legal disclaimer or a trap?"
+    },
+    {
+      "id": 74,
+      "perspective": "buyer",
+      "angle": "Man hires an electrician from a Jiji ad for GHS 3,500 rewiring in Ashaiman. Electrician insists full MoMo before he buys materials. Man sends full amount. Electrician pulls a morning of drilling noise, posts a selfie at the site, then blocks. No ECG visit — the certificate on WhatsApp was Canva.",
+      "emotional_core": "the certificate was the scam, not the wiring",
+      "specificity": "Jiji electrician, Ashaiman, GHS 3,500 full MoMo upfront, ghost after one day",
+      "discourse_question": "The WhatsApp certificate looked sharp, so he cleared all GHS 3,500 before copper showed up — then one noisy morning and the sparky vanished. Some homeowners fund materials upfront or nobody shows. Others say you never empty MoMo until cable sits in the yard. In Ashaiman, who is the sucker — and who is impatient?"
+    },
+    {
+      "id": 75,
+      "perspective": "seller",
+      "angle": "A makeup artist books a bridal package — bride plus 5 bridesmaids — for a Saturday wedding in Tema. Confirms the date, takes GHS 800 deposit, blocks the day, turns down two other Saturday bookings. Three days before the wedding, bride texts: 'We're going with someone else. My aunties recommended their person.' No explanation. No offer to compensate for the blocked date. Artist loses GHS 2,400 in potential revenue for a day she can no longer fill.",
+      "emotional_core": "the aunties made the decision and you paid for it",
+      "specificity": "Bridal MUA, Tema, GHS 800 deposit, 2 Saturday bookings declined, GHS 2,400 lost, last-minute replacement by aunt's recommendation",
+      "discourse_question": "The aunties overruled a signed deposit. Is the deposit enough compensation, or does she deserve more? And what does the bride owe her?"
+    },
+    {
+      "id": 76,
+      "perspective": "buyer",
+      "angle": "A woman orders a sofa from an Instagram woodshop in Suame, pays GHS 5,500 MoMo in full because imported fabric must be ordered cash-first. Week three the Stories show a stranger's ceiling. Week four the account is private and the workshop pin is a lorry park.",
+      "emotional_core": "he made a unilateral decision about your home",
+      "specificity": "Instagram sofa Suame, GHS 5,500 full upfront MoMo, ghost before delivery",
+      "discourse_question": "Fabric needs cash — some say pay everything so he orders rolls. Others say you hold funds until timber hits your curb. When the page vanishes, who furnished fiction?"
+    },
+    {
+      "id": 77,
+      "perspective": "both",
+      "angle": "Two brothers jointly inherit land from their father in the Volta Region. Older brother, living in Accra, agrees via phone call to let the younger brother sell a portion to raise money for their mother's medical bills. Younger brother sells — GHS 35,000. Uses GHS 15,000 for the medical bills. The other GHS 20,000 stays with him for 'safekeeping.' Older brother asks for his share. Younger brother says the land sold for only GHS 18,000. There is no written agreement. The land buyer has a signed deed from the younger brother alone.",
+      "emotional_core": "grief was the timing and family was the loophole",
+      "specificity": "Volta Region inherited land, GHS 35,000 sale, GHS 20,000 disputed, verbal phone agreement, deed signed by one brother only",
+      "discourse_question": "He used their mother's illness as cover. Or did she? No paper, no witness. Who decides what the land sold for?"
+    },
+    {
+      "id": 78,
+      "perspective": "seller",
+      "angle": "A woman sells homemade shea butter products at a Kumasi trade fair. A buyer representing a 'health and beauty chain' places an order for 500 units, hands her a business card, and takes 20 samples. Says the purchase order will come 'by end of week.' She produces 500 units in three weeks — GHS 6,000 in materials and labor. End of week never comes. She calls the number on the card. It belongs to a spa in Accra that has never heard of him.",
+      "emotional_core": "a business card was the entire contract",
+      "specificity": "Kumasi trade fair, shea butter, 500 units produced, GHS 6,000 spent, fake business card, spa in Accra has no record of him",
+      "discourse_question": "She produced 500 units on a handshake and a business card. Was that ambition or carelessness? And who investigates stolen corporate identities?"
+    },
+    {
+      "id": 79,
+      "perspective": "buyer",
+      "angle": "A man pays GHS 9,000 to a 'clearing agent' to release his container from Tema Port — a container he shipped from the UK with family belongings. Agent collects the money, disappears for two weeks, then says there are 'additional port charges' of GHS 3,500 due to delays he caused. Man pays. Container eventually released — three items missing: a laptop, a camera, a PlayStation 5. Agent says the manifest shows everything was delivered. Man has no inventory list.",
+      "emotional_core": "you paid twice to receive less than you sent",
+      "specificity": "Tema Port clearing, GHS 9,000 + GHS 3,500 extra, UK shipment, 3 items missing, no inventory list, agent claims manifest is complete",
+      "discourse_question": "Agent caused the delay, then charged for it. Three items missing but no inventory list. Who has the burden of proof here?"
+    },
+    {
+      "id": 80,
+      "perspective": "seller",
+      "angle": "A food vendor in an Accra office complex has a verbal agreement with the building management to supply lunch for staff — 60 meals a day, five days a week, GHS 35 per meal. Runs for three months. Then management changes, and the new FM manager says the arrangement was 'informal' and the previous manager had no authority to sign off on it. Outstanding balance: GHS 18,900. Old manager is on leave. New manager offers GHS 5,000 as 'goodwill.' She has WhatsApp messages from the old manager. Nothing on letterhead.",
+      "emotional_core": "three months of meals and the institution doesn't know you exist",
+      "specificity": "Office lunch contract, 60 meals/day, GHS 35 each, 3 months, GHS 18,900 unpaid, management change, GHS 5,000 goodwill offer",
+      "discourse_question": "She fed 60 people every day for three months. New management says it was informal. Is GHS 5,000 goodwill, or is it an insult?"
+    },
+    {
+      "id": 81,
+      "perspective": "buyer",
+      "angle": "A woman orders a 'genuine leather' sofa set from an Instagram furniture page with 43,000 followers and dozens of video testimonials. Pays GHS 14,000. Delivered in a truck, looks right. Three months later, the surface starts peeling. She googles the pattern — it's PU leather, not genuine. She posts a video. The brand responds: 'All our sofas are described as leather-finished, not genuine leather.' She checks the caption from when she ordered. It says 'premium leather.' Page has since been edited. Screenshot saved.",
+      "emotional_core": "the evidence existed. they just edited it.",
+      "specificity": "Instagram furniture, GHS 14,000, PU leather peeling after 3 months, caption edited post-complaint, screenshot preserved",
+      "discourse_question": "She has the original screenshot. They edited the caption. Is that fraud, deceptive marketing, or just 'buyer beware'?"
+    },
+    {
+      "id": 82,
+      "perspective": "both",
+      "angle": "An owner lists weekend car hire on Jiji at GHS 350 per day. A renter sends GHS 2,100 two weeks upfront via MoMo. Day four MTN reverses the wallet as fraud-flagged. Owner already handed keys because the receipt looked settled. Both blame the app; neither has the car back the same day.",
+      "emotional_core": "your asset was running a second business you didn't know about",
+      "specificity": "Jiji hire, GHS 2,100 two-week MoMo, reversal after handover",
+      "discourse_question": "Keys need security — some owners say take MoMo or no rental. Others say you never pass metal until the wallet cannot boomerang. When MTN yanks funds back, who trusted pixels over a face?"
+    },
+    {
+      "id": 83,
+      "perspective": "buyer",
+      "angle": "A couple books a wedding venue in East Legon — GHS 28,000 for the full package: hall, chairs, decor, catering coordination. Pays 70% deposit nine months in advance. Two months before the wedding, venue calls: there has been a 'double booking error.' They offer an alternative date six months later or a smaller hall. Couple has already sent invitations to 300 guests. Venue offers to refund GHS 14,000 — half the deposit — as 'compensation for the inconvenience.'",
+      "emotional_core": "the error was theirs. the cost is yours.",
+      "specificity": "East Legon wedding venue, GHS 28,000 total, GHS 19,600 deposit paid, double-booked 2 months out, 300 invitations sent, GHS 14,000 refund offered",
+      "discourse_question": "300 invitations sent, deposits paid to other vendors. They offer half back. Is that a settlement or a second robbery?"
+    },
+    {
+      "id": 84,
+      "perspective": "seller",
+      "angle": "A hotel buyer orders first-week lobby florals for GHS 3,800 via MoMo to a personal line because the procurement portal is not ready yet. Florist delivers Monday rotation. Wednesday the WhatsApp-forwarded portal link asks for her bank token on a page one letter off the real hotel domain. Thursday payroll says they never opened that vendor.",
+      "emotional_core": "bureaucracy arrived exactly when the relationship ended",
+      "specificity": "Hotel lobby, GHS 3,800 MoMo week one, phishing portal typo-domain",
+      "discourse_question": "Hotels love portals — some suppliers say take any clearing MoMo. Others say you never log in from a fresh link in chat. When the domain is almost right, who is trimming flowers — and phishing payroll?"
+    },
+    {
+      "id": 85,
+      "perspective": "buyer",
+      "angle": "A man from Nkoranza sends GHS 4,200 MoMo to a recruitment agent after a voice note with Qatar letterhead audio. Agent says move cash same day to hold a visa slot. Tracking link for the passport courier is a Google Form. Forty-eight hours later the VoIP prefix is a different country.",
+      "emotional_core": "you signed a journey on voice note and sent cash the same hour",
+      "specificity": "Qatar job, GHS 4,200 same-day MoMo, fake courier form, burner line",
+      "discourse_question": "Some say overseas work needs fast fees. Others say you never clear passport cash until you sit across a stamp you can touch. Who bought a ticket — and who bought audio theatre?"
+    },
+    {
+      "id": 86,
+      "perspective": "seller",
+      "angle": "A videographer shoots a full music video for a rising Ghanaian artist — two days on set, GHS 9,500 agreed. Artist pays GHS 3,000 upfront. Video released on YouTube, gets 280,000 views in two weeks. Label approaches artist and re-releases the video on a major platform. Videographer is not credited. Remaining GHS 6,500 still unpaid. Artist says he will pay 'from the label advance.' Six months later: no advance, no payment, no credit. Videographer sees his shots in a second video. Different artist.",
+      "emotional_core": "your work went viral and you got nothing",
+      "specificity": "Music video, GHS 9,500, GHS 6,500 unpaid, 280,000 YouTube views, label deal, footage reused in second video without consent",
+      "discourse_question": "280,000 views, a label deal, and a second video using his footage. At what point does unpaid creative work become theft?"
+    },
+    {
+      "id": 87,
+      "perspective": "both",
+      "angle": "A Lagos-based Nigerian buyer contacts an Accra furniture exporter through LinkedIn. Places an order for 30 handcrafted stools — GHS 45,000 total. Pays 50% via international transfer. Seller ships via road freight. Freight hits a dispute at the Ghana-Togo border — undocumented export paperwork. Stools held. Buyer needs them for a hotel opening. Seller needs the broker to release them. Broker wants a 'facilitation fee.' Three parties, one shipment, no one admits fault.",
+      "emotional_core": "the border turned a clean deal into a hostage situation",
+      "specificity": "Accra-to-Lagos furniture export, 30 stools, GHS 45,000, 50% paid, border hold, facilitation fee demanded, hotel opening deadline",
+      "discourse_question": "Seller shipped. Buyer paid. Border held it. Broker wants money. Who pays the facilitation fee — and who reimburses whom if the opening is missed?"
+    },
+    {
+      "id": 88,
+      "perspective": "buyer",
+      "angle": "A woman buys a secondhand car from a dealer in Spintex — GHS 32,000, full payment. Drives it for 11 days before the engine seizes. Mechanic says the engine oil was topped up just before sale to mask a cracked head gasket — a known dealer trick to pass a test drive. Dealer says 'all sales are final, no warranty on used vehicles.' Woman's receipt says 'sold as seen.' She had the car inspected. The inspector was recommended by the dealer.",
+      "emotional_core": "the inspection was part of the scam",
+      "specificity": "Spintex used car, GHS 32,000, engine seized day 11, masked head gasket, dealer-recommended inspector, 'sold as seen' receipt",
+      "discourse_question": "He recommended the inspector. Inspector passed it. Engine died on day 11. Who designed this outcome?"
+    },
+    {
+      "id": 89,
+      "perspective": "seller",
+      "angle": "A woman runs a small daycare in Achimota — 18 children, monthly fees GHS 900 per child. Two parents always pay late. One month they stop entirely and pull their child out mid-month, owing GHS 1,800. They post a Facebook review: 'Unprofessional management, would not recommend.' She sees the review the same morning she's trying to recover her money. Responding looks defensive. Not responding looks like she agrees. She has text receipts of every late payment — but publishing them means exposing a child's family publicly.",
+      "emotional_core": "they weaponized your professionalism against you",
+      "specificity": "Achimota daycare, GHS 900/month per child, GHS 1,800 unpaid, negative review posted same day as exit, proof exists but involves a child's family",
+      "discourse_question": "She has proof. Publishing it exposes a child. Not publishing it costs her reputation. What does she do?"
+    },
+    {
+      "id": 90,
+      "perspective": "buyer",
+      "angle": "A woman in Kumasi pays an interior designer GHS 12,000 — half upfront — to furnish and style her new apartment before she moves back from the UK. Sends measurements and photos remotely. Designer sends mood boards, gets approval. Woman arrives in Ghana to find half the items are different from what was approved, two rooms are unfinished, and the designer has used the remaining GHS 6,000 budget on her own vendor contacts who gave her a kickback. The receipts don't match the prices.",
+      "emotional_core": "she decorated her own pocket with your budget",
+      "specificity": "UK-based client, Kumasi apartment, GHS 12,000, remote approval, wrong items delivered, kickback vendors, receipt-price mismatch",
+      "discourse_question": "Approved designs, different execution, mismatched receipts. Is this breach of contract, fraud, or just an interior designer who made 'creative decisions'?"
+    },
+    {
+      "id": 91,
+      "perspective": "seller",
+      "angle": "A woman bakes and delivers 400 cupcakes for a corporate birthday event — custom frosting, branded toppers, refrigerated delivery. Total invoice: GHS 2,800. Client's PA says the cupcakes were 'slightly dry' and offers GHS 1,500. Baker asks for feedback before delivery — none given. Asks for photos of the dry cupcakes — none provided. Asks for the name of anyone who complained — PA says it's 'confidential.' Three weeks later she sees photos from the event on the client's Instagram. Every cupcake is gone. Everyone is smiling.",
+      "emotional_core": "they ate all 400 and called it a complaint",
+      "specificity": "400 branded cupcakes, corporate event, GHS 2,800 invoiced, GHS 1,500 offered, no feedback before delivery, Instagram photos show full consumption",
+      "discourse_question": "400 eaten, Instagram smiles, and a 'dry' complaint. Is she owed GHS 2,800 or GHS 1,500 — and does Instagram count as evidence?"
+    },
+    {
+      "id": 92,
+      "perspective": "both",
+      "angle": "A Ghanaian trader in Kantamanto supplies second-hand clothing bales to a reseller in Tamale — a long-running relationship. GHS 8,500 per bale, two bales per month, payment on delivery. Reseller says she wants to grow and asks to take three bales on credit this month, pay next. Supplier agrees — old relationship, trusted. Reseller's shop is flooded in heavy rains in Tamale. Inventory destroyed. She has no insurance. She cannot pay. Supplier also cannot absorb the loss. Neither of them is wrong. Both of them are broke.",
+      "emotional_core": "when neither party is the villain, everyone still loses",
+      "specificity": "Kantamanto-to-Tamale bale trade, GHS 8,500/bale, 3 bales on credit, shop flooded, no insurance, GHS 25,500 in limbo",
+      "discourse_question": "Flood destroyed the stock. Nobody's at fault. GHS 25,500 in limbo. Who absorbs it — the supplier who gave credit or the reseller who couldn't control the weather?"
+    },
+    {
+      "id": 93,
+      "perspective": "buyer",
+      "angle": "A family pays a 'registered orphanage' GHS 5,000 in 'processing fees' to adopt a child. Visits the facility twice — children are present, staff are welcoming. Paperwork is prepared. Two weeks before finalization, the social worker assigned to them is replaced, the new one has no file on them, and the 'director' who took their money is no longer associated with the orphanage. Department of Social Welfare has no record of the GHS 5,000 transaction.",
+      "emotional_core": "hope was the product they were selling",
+      "specificity": "Adoption fraud, GHS 5,000 processing fee, 2 facility visits, director disappears, DSW has no record",
+      "discourse_question": "Children were there. The director was real. Until he wasn't. How do you protect families from fraud in a process built on trust and hope?"
+    },
+    {
+      "id": 94,
+      "perspective": "seller",
+      "angle": "A man in Tema runs a small trucking business — two vehicles. He contracts with a construction company to move gravel and sand for three months: GHS 14,000/month. Does the work, invoices every two weeks. After month two, company says they're 'restructuring payment cycles' to quarterly. He finishes month three. Awaits payment of GHS 42,000. Company issues a GHS 28,000 cheque — deducting GHS 14,000 for 'vehicle damage to site access road' — a claim he has never heard before. Road was already damaged when he arrived.",
+      "emotional_core": "the invoice arrived and so did a deduction that didn't exist until you asked to be paid",
+      "specificity": "Tema trucking, GHS 14,000/month, 3 months work, GHS 42,000 owed, GHS 14,000 deducted for pre-existing road damage, quarterly payment surprise",
+      "discourse_question": "Road was already damaged. Deduction invented at payment time. GHS 14,000 gone. Is that breach of contract or just a very convenient accounting decision?"
+    },
+    {
+      "id": 95,
+      "perspective": "buyer",
+      "angle": "A woman pays GHS 8,000 MoMo for a professional makeup diploma because intake says only four seats left. Orientation is a rented flat; the lecturer is a YouTube playlist. Week two every student realizes their certificate JPEG shares the same misspelled school name.",
+      "emotional_core": "you bought a credential that doesn't exist in the world you want to work in",
+      "specificity": "Accra beauty intake, GHS 8,000 upfront MoMo, fake classroom, duplicate cert jpeg",
+      "discourse_question": "Some schools want full tuition — some students say pay early or lose the chair. Others say you never wire diploma money before you sit a live mirror once. Who is chasing glow — and who paid for a playlist?"
+    },
+    {
+      "id": 96,
+      "perspective": "seller",
+      "angle": "A woman supplies and installs CCTV systems for small businesses. Completes a full installation for a pharmacy in Lapaz — 8 cameras, DVR, remote access — GHS 6,800. Three months later, pharmacy owner claims two cameras 'stopped working' and demands she fix them for free or refund GHS 2,000. She goes to check. The cameras are working fine. The owner has repositioned them manually and the remote access password has been changed to something she didn't set. She suspects someone doesn't want the footage visible.",
+      "emotional_core": "the system is working. someone just doesn't want it to.",
+      "specificity": "Lapaz pharmacy CCTV, GHS 6,800, 8 cameras, 3 months later, cameras repositioned, password changed, GHS 2,000 refund demanded",
+      "discourse_question": "Cameras repositioned, password changed, refund demanded. The system works. What is the pharmacy owner actually asking for?"
+    },
+    {
+      "id": 97,
+      "perspective": "buyer",
+      "angle": "A woman places a bulk skincare order with a supplier she found on a beauty WhatsApp group — serums, toners, and moisturizers, GHS 11,500 worth. Supplier sends samples first — genuine. Full order arrives: same packaging, different smell, different consistency. Lab test at CSIR confirms the products are counterfeit. She has 200 units of products she cannot sell and cannot safely use. Supplier says 'the batch came from a different distributor.' Then blocks her.",
+      "emotional_core": "the sample was the proof. the order was the trap.",
+      "specificity": "Skincare bulk order, GHS 11,500, CSIR lab-confirmed counterfeit, genuine samples used as bait, 200 unsellable units, supplier blocks her",
+      "discourse_question": "Genuine sample, counterfeit order. Lab confirmed. She has 200 units she can't sell or use. Who investigates counterfeit cosmetics in Ghana?"
+    },
+    {
+      "id": 98,
+      "perspective": "both",
+      "angle": "A Ghanaian app developer and a startup founder agree on a GHS 25,000 contract to build a ride-hailing app — MVP only. Six months of development. Founder keeps adding features mid-build and calling them 'small changes.' Developer keeps accommodating to protect the relationship. At launch, app crashes under load. Founder says it's the developer's fault. Developer says the architecture changed 14 times because of the founder's requests. Both have WhatsApp threads of 'small changes' that now look like a completely different product.",
+      "emotional_core": "scope creep has no villain — just two people who never said no",
+      "specificity": "Ride-hailing MVP, GHS 25,000, 14 architecture changes, launch crash, WhatsApp thread of feature requests",
+      "discourse_question": "14 'small changes,' one crashed launch. Who's responsible — the developer who kept agreeing, or the founder who kept asking?"
+    },
+    {
+      "id": 99,
+      "perspective": "buyer",
+      "angle": "A family from Sunyani pays GHS 60,000 to a developer for a 3-bedroom house on a serviced plot in a gated community outside Accra — off-plan purchase, 2-year delivery. Year two: foundation only. Year three: developer announces 'construction delays due to material costs' and asks for an additional GHS 15,000 per unit to continue. Families who pay the extra amount get priority. Families who don't are told their units are 'under review.' No one has a refund option.",
+      "emotional_core": "you paid for a house. they gave you leverage against yourself.",
+      "specificity": "Off-plan housing, Sunyani family, GHS 60,000, foundation only at year 2, GHS 15,000 top-up demanded, refund not offered",
+      "discourse_question": "Pay more or lose your place. No refund option. Is that a struggling developer or an extortion model built into the contract?"
+    },
+    {
+      "id": 100,
+      "perspective": "seller",
+      "angle": "A man runs a gym in Accra North — 80 members, monthly subscriptions. He negotiates a GHS 45,000 lease for the space, pays a full year upfront. Eight months in, the landlord sells the building to a developer. New owner gives him 30 days to vacate. No clause in his lease about sale of property. He has 80 members, 4 months of prepaid subscriptions, equipment he owns, and no new space. He cannot refund 80 people and he cannot operate.",
+      "emotional_core": "you built a community. the building was sold from under it.",
+      "specificity": "Accra North gym, 80 members, GHS 45,000 annual lease, building sold at month 8, 30-day vacate notice, 80 prepaid memberships, no property-sale clause",
+      "discourse_question": "Landlord sold, new owner evicts, members want refunds. He's the victim and the one everyone is coming to. Who does he go to?"
+    }
+  ]
+}
