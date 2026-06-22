@@ -18,10 +18,10 @@ export const TRANSITION_FRAMES = 10;
 export const HAS_BGM = true;
 export const TRANSITIONS: string[] = ["fade", "fade", "fade", "fade"];
 export const SCENES: SceneRenderConfig[] = [
-  {index: 0, audioDuration: 9.264, baseDurationInFrames: 281, textOverlay: "5 GHS Jerseys Promo", visualType: "photo", delivery: "fast_punchy"},
-  {index: 1, audioDuration: 7.2, baseDurationInFrames: 219, textOverlay: "Step 1: Create Account", visualType: "photo", delivery: "neutral"},
-  {index: 2, audioDuration: 22.44, baseDurationInFrames: 677, textOverlay: "Step 2: Reply With Screenshots", visualType: "photo", delivery: "neutral"},
-  {index: 3, audioDuration: 3.816, baseDurationInFrames: 118, textOverlay: "Winners Before Every Ghana Game", visualType: "photo", delivery: "warm_confident"},
-  {index: 4, audioDuration: 5.4, baseDurationInFrames: 165, textOverlay: "CollectiblesGH.com", visualType: "text_card", delivery: "fast_punchy"}
+  {index: 0, audioDuration: 4.176, baseDurationInFrames: 129, textOverlay: "Lost deal", visualType: "photo", delivery: "fast_punchy"},
+  {index: 1, audioDuration: 7.464, baseDurationInFrames: 227, textOverlay: "Verbal agreement made", visualType: "photo", delivery: "warm_confident"},
+  {index: 2, audioDuration: 10.608, baseDurationInFrames: 322, textOverlay: "Misunderstanding arises", visualType: "photo", delivery: "slow_emphatic"},
+  {index: 3, audioDuration: 9.576, baseDurationInFrames: 291, textOverlay: "Written agreement prevents issues", visualType: "photo", delivery: "warm_confident"},
+  {index: 4, audioDuration: 3.648, baseDurationInFrames: 113, textOverlay: "PayTrustGH.com", visualType: "text_card", delivery: "fast_punchy"}
 ];
-export const TOTAL_DURATION_IN_FRAMES = 1460;
+export const TOTAL_DURATION_IN_FRAMES = 1082;

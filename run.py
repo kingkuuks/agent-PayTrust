@@ -37,7 +37,7 @@ load_dotenv(PROJECT_ROOT / ".env")
 from agents.strategist import run_strategist
 from agents.asset_builder import run_asset_builder
 from agents.assembler import run_assembler
-from tools.brief_validation import load_brief_json, validate_production_brief
+from tools.brief_validation import load_brief_json, validate_brief_structure, validate_production_brief
 from tools.output_paths import allocate_output_run_dir
 
 LOG_DIR = PROJECT_ROOT / "logs"
@@ -429,11 +429,19 @@ def run_review(
 
 def run_continue(output_dir: Path) -> bool:
     """
-    Load brief.json from disk (does not run Strategist), validate, build assets, assemble, STATUS=complete.
+    Load brief.json from disk (does not run Strategist), prepare, validate, build assets, assemble, STATUS=complete.
 
     When ``script.txt`` is present and non-empty, if its normalized text differs from ``full_narration``,
-    ``script.txt`` replaces ``full_narration`` before the asset builder (same whitespace rules as narration sync).
+    ``script.txt`` replaces ``full_narration`` before narration sync and overlay regeneration.
     """
+    from tools.brief_continue import (
+        apply_script_txt,
+        ensure_scene4_defaults,
+        load_brand,
+        prepare_brief_for_continue,
+        require_nonempty_full_narration,
+    )
+
     out = output_dir.resolve()
     if not out.is_dir():
         logger.error("Not a directory: %s", out)
@@ -457,29 +465,46 @@ def run_continue(output_dir: Path) -> bool:
         return False
 
     try:
+        validate_brief_structure(brief)
+    except ValueError as e:
+        print(f"Brief structure invalid: {e}", file=sys.stderr)
+        return False
+
+    original_brief_bytes = brief_path.read_bytes()
+
+    script_path = out / "script.txt"
+    apply_script_txt(brief, script_path)
+
+    try:
+        require_nonempty_full_narration(brief)
+    except ValueError as e:
+        print(str(e), file=sys.stderr)
+        return False
+
+    brand = load_brand()
+
+    try:
+        prepare_brief_for_continue(brief, brand)
+        ensure_scene4_defaults(brief, brand)
         validate_production_brief(brief)
     except ValueError as e:
         print(f"Brief validation failed: {e}", file=sys.stderr)
         return False
+    except Exception as e:
+        logger.error("Failed to prepare brief for continue: %s", e, exc_info=True)
+        print(f"Failed to prepare brief: {e}", file=sys.stderr)
+        return False
 
-    script_path = out / "script.txt"
-    if script_path.is_file():
-        from tools.narration_sync import normalize_text
-
-        script_text = normalize_text(script_path.read_text(encoding="utf-8"))
-        fn_existing = normalize_text(brief.get("full_narration", ""))
-        if script_text and script_text != fn_existing:
-            brief["full_narration"] = script_text
-            logger.info(
-                "script.txt superseded brief.json full_narration — resync will follow"
-            )
-            try:
-                validate_production_brief(brief)
-            except ValueError as e:
-                print(f"Brief validation failed after applying script.txt: {e}", file=sys.stderr)
-                return False
-
-    original_brief_bytes = brief_path.read_bytes()
+    backup_path = brief_path.parent / "brief.backup.json"
+    backup_path.write_bytes(original_brief_bytes)
+    brief_path.write_text(
+        json.dumps(brief, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    logger.info(
+        "Wrote resolved brief.json and %s before image generation.",
+        backup_path.name,
+    )
 
     logger.info(">>> Agent 3: Asset Builder (continue from %s)", out)
     try:
@@ -488,6 +513,7 @@ def run_continue(output_dir: Path) -> bool:
             output_dir=out,
             brief_path=brief_path,
             pre_run_brief_bytes=original_brief_bytes,
+            skip_continue_steps=True,
         )
     except Exception as e:
         logger.error("Asset Builder failed: %s", e, exc_info=True)

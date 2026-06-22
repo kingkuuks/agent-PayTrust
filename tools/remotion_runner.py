@@ -11,6 +11,7 @@ rewritten in place anymore.
 import os
 import json
 import logging
+import shutil
 import subprocess
 from pathlib import Path
 from dotenv import load_dotenv
@@ -183,19 +184,26 @@ def render_video(output_path: str) -> str:
     """Run Remotion CLI to render the final MP4."""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
+    npx = shutil.which("npx") or "npx"
+    output_abs = str(Path(output_path).resolve())
+
     cmd = [
-        "npx", "remotion", "render",
-        "MarketingVideo", output_path,
-        "--codec=h264", "--crf=23",
+        npx,
+        "remotion",
+        "render",
+        "MarketingVideo",
+        output_abs,
+        "--codec=h264",
+        "--crf=23",
     ]
-    logger.info("Rendering: %s", " ".join(cmd))
+    logger.info("Rendering: %s", cmd)
 
     result = subprocess.run(
         cmd,
         cwd=str(TEMPLATE_DIR),
         capture_output=True,
         timeout=600,
-        shell=True,
+        shell=False,
         encoding="utf-8",
         errors="replace",
     )
@@ -204,15 +212,15 @@ def render_video(output_path: str) -> str:
         logger.error("Render FAILED:\nstdout: %s\nstderr: %s", result.stdout, result.stderr)
         raise RuntimeError(f"Remotion render failed: {result.stderr[-500:]}")
 
-    if not os.path.exists(output_path):
-        raise RuntimeError(f"Render produced no output at: {output_path}")
+    if not os.path.exists(output_abs):
+        raise RuntimeError(f"Render produced no output at: {output_abs}")
 
-    file_size = os.path.getsize(output_path)
+    file_size = os.path.getsize(output_abs)
     if file_size < 100_000:
         raise RuntimeError(f"Output file suspiciously small: {file_size} bytes")
 
-    logger.info("Render complete: %s (%.1f MB)", output_path, file_size / 1_048_576)
-    return output_path
+    logger.info("Render complete: %s (%.1f MB)", output_abs, file_size / 1_048_576)
+    return output_abs
 
 
 if __name__ == "__main__":

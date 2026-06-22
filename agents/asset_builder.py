@@ -116,18 +116,13 @@ def run_asset_builder(
 
     Returns ``(assembler_config_dict, narration_resplit_occurred)``.
 
-    When ``output_dir`` is set (``--continue`` resume path):
-    - narration fields are synced from ``full_narration`` when out of sync;
-    - ALL photo scenes (0-3) have ``image_prompt`` + ``text_overlay`` regenerated
-      from current narrations (I10 v2);
-    - resolved ``brief.json`` is persisted before image generation when
-      ``brief_path`` and ``pre_run_brief_bytes`` are supplied.
+    When ``output_dir`` is set (``--continue`` resume path), sync/regen/persist is handled
+    by ``run_continue()`` before this function is called with ``skip_continue_steps=True``.
 
     Fresh runs omit resync and visual re-sync.
     """
     from tools.image_generator import generate_scene_image, set_style_from_brief, verify_brand_assets
     from tools.audio_generator import generate_scene_audio
-    from tools.narration_sync import sync_scene_narrations_from_full
 
     logger.info("=== Asset Builder Agent starting ===")
     generation_stats.reset()
@@ -138,39 +133,12 @@ def run_asset_builder(
         raise ValueError("Brief has no scenes")
 
     narration_resplit = False
-    if output_dir is not None and not skip_continue_steps:
-        narration_resplit = sync_scene_narrations_from_full(brief)
 
     set_style_from_brief(brief)
 
     brand_path = PROJECT_ROOT / "config" / "brand.json"
     with open(brand_path) as f:
         brand = json.load(f)
-
-    # I10 RESOLVE (v2): on every --continue, regenerate ALL photo-scene visuals from
-    # current narrations so image_prompt cannot stay stale from a prior topic. Scene 4
-    # CTA excluded. Persist resolved brief BEFORE image generation.
-    if output_dir is not None and not skip_continue_steps:
-        try:
-            from tools.gemini_client import regenerate_scene_visuals_from_narration
-
-            regenerate_scene_visuals_from_narration(brief, [0, 1, 2, 3], brand)
-        except Exception as e:
-            logger.warning(
-                "Scene visual re-sync skipped (keeping existing image_prompt/text_overlay): %s",
-                e,
-            )
-        if brief_path is not None and pre_run_brief_bytes is not None:
-            backup_path = brief_path.parent / "brief.backup.json"
-            backup_path.write_bytes(pre_run_brief_bytes)
-            brief_path.write_text(
-                json.dumps(brief, indent=2, ensure_ascii=False),
-                encoding="utf-8",
-            )
-            logger.info(
-                "Wrote resolved brief.json and %s (pre-resolve copy) before image generation.",
-                backup_path.name,
-            )
 
     workflow = brand.get("workflow") or {}
     continuity_on = bool(workflow.get("continuity_clause_enabled", False))
